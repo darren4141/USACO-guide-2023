@@ -1,3 +1,4 @@
+//SOLVED
 import java.util.Scanner;
 
 public class CF231A {
