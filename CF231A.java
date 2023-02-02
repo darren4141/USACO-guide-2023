@@ -1,4 +1,7 @@
 //SOLVED
+//https://codeforces.com/problemset/problem/231/A
+//A. TEAM
+
 import java.util.Scanner;
 
 public class CF231A {

@@ -1,4 +1,7 @@
 //SOLVED
+//https://codeforces.com/problemset/problem/546/A
+//A. SOLDIER AND BANANAS
+
 import java.util.Scanner;
 
 public class CF546A {
