@@ -14,7 +14,7 @@ public class CF546A {
             t += k*i;
         }
 
-        System.out.println(t-n);
+        System.out.println(((t-n) < 0)? 0 : t-n);
         sc.close();
     }
 }
