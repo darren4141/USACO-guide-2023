@@ -1,13 +1,17 @@
 import java.io.*;
+import java.util.StringTokenizer;
 
 public class USACO16P1{
+    static StringTokenizer st;
+    static BufferedReader br;
+    static PrintWriter pw;
     public static void main(String[]args) throws IOException{
-        BufferedReader br = new BufferedReader(new FileReader("promote.in"));
-        PrintWriter pw = new PrintWriter("promote.out");
+        br = new BufferedReader(new FileReader("promote.in"));
+        pw = new PrintWriter("promote.out");
 
         int[] nums = new int[8];
         for(int i = 0; i < 8; i++){
-            nums[i] = br.read();
+            nums[i] = readInt();
         }
 
         int bs = 0;
@@ -40,4 +44,12 @@ public class USACO16P1{
         br.close();
     }
 
+    static String next() throws IOException {
+        while (st == null || !st.hasMoreTokens())
+            st = new StringTokenizer(br.readLine().trim());
+        return st.nextToken();
+    }
+    static int readInt() throws IOException {
+        return Integer.parseInt(next());
+    }
 }

@@ -3,8 +3,8 @@ import java.util.StringTokenizer;
 
 public class USACO18P1{
     public static void main(String[]args) throws IOException{
-        BufferedReader br = new BufferedReader(new FileReader("teleport.in"));
-        PrintWriter pw = new PrintWriter("teleport.out");
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        //PrintWriter pw = new PrintWriter("teleport.out");
         StringTokenizer st = new StringTokenizer(br.readLine());
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
@@ -21,9 +21,10 @@ public class USACO18P1{
             dist = Math.abs(a-y) + Math.abs(b-x);
         }
 
-        pw.println(dist);
-        pw.close();
-        br.close();
+        System.out.println(dist);
+        // pw.println(dist);
+        // pw.close();
+        // br.close();
     }
 
 }
