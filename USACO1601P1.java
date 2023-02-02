@@ -2,7 +2,7 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class USACO16P1{
+public class USACO1601P1{
     static StringTokenizer st;
     static BufferedReader br;
     static PrintWriter pw;

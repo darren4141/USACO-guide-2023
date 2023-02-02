@@ -2,7 +2,7 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class USACO18P1{
+public class USACO1802P1{
     public static void main(String[]args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         //PrintWriter pw = new PrintWriter("teleport.out");

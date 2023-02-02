@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 import java.io.*;
 
 
-public class USACO20P1 {
+public class USACO2012P1 {
     static StringTokenizer st;
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
