@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class USACO18P1{
@@ -24,6 +23,7 @@ public class USACO18P1{
 
         pw.println(dist);
         pw.close();
+        br.close();
     }
 
 }
