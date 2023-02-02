@@ -1,4 +1,7 @@
 //SOLVED
+//http://www.usaco.org/index.php?page=viewproblem2&cpid=1059
+//DO YOU KNOW YOUR ABCs?
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;

@@ -1,4 +1,7 @@
 //SOLVED
+//http://www.usaco.org/index.php?page=viewproblem2&cpid=939
+//BUCKET BRIGADE
+
 import java.util.StringTokenizer;
 import java.io.*;
 

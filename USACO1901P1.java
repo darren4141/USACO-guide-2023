@@ -1,4 +1,6 @@
 //SOLVED
+//http://www.usaco.org/index.php?page=viewproblem2&cpid=891
+//SHELL GAME
 
 import java.io.*;
 import java.util.HashMap;

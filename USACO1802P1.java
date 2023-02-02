@@ -1,4 +1,7 @@
 //SOLVED
+//http://www.usaco.org/index.php?page=viewproblem2&cpid=807
+//TELEPORTATION
+
 import java.io.*;
 import java.util.StringTokenizer;
 
